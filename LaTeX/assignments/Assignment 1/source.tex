@@ -1,0 +1,47 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{amsmath}
+\usepackage{natbib}
+ 
+\title{Assignment 1}
+\author{Aryan Saraiya}
+\date{}
+ 
+\begin{document}
+\maketitle
+\tableofcontents
+ 
+\section{Introduction}
+This is my first \LaTeX{} document. Extra spaces and single line breaks in the source
+are treated as a single space; a blank line starts a new paragraph. Special characters
+such as \% , \$ , \& , \# , \_ , \{ and \} must be escaped with a backslash.
+ 
+\subsection{Document class options}
+The default paper size of the \texttt{article} class is \texttt{letter}. It is changed
+to A4 by passing the option \texttt{a4paper}, e.g.\ \verb|\documentclass[12pt,a4paper]{article}|.
+The font size for the whole document is set the same way (here \texttt{12pt}).
+ 
+\subsection{A numbered list}
+\begin{enumerate}
+  \item first item
+  \item second item
+  \item third item
+\end{enumerate}
+ 
+\section{Science!}
+Einstein's mass--energy equivalence is famously written $e = mc^2$ \citep{einstein1905},
+where $e$ is energy, $m$ is mass and $c$ is the speed of light in a vacuum.
+ 
+\section{Equations}
+The time-dependent Schr\"odinger equation \citep{schrodinger1926} is given in
+Equation~\eqref{eq:schrodinger}:
+\begin{equation}
+  i\hbar \frac{\partial}{\partial t}\Psi(\mathbf{r},t) =
+  \left[ -\frac{\hbar^{2}}{2\mu}\nabla^{2} + V(\mathbf{r},t) \right]\Psi(\mathbf{r},t)
+  \label{eq:schrodinger}
+\end{equation}
+As discussed by \citet{schrodinger1926}, Equation~\eqref{eq:schrodinger} describes how
+the quantum state $\Psi$ of a particle of reduced mass $\mu$ evolves in a potential~$V$.
+ 
+\bibliographystyle{agu}
+\bibliography{physics}
+\end{document}

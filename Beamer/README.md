@@ -80,15 +80,23 @@ pdflatex presentation.tex
 
 ## 📝 Explanations & Practical Examples
 
-*Detailed explanations, slide architecture walkthroughs, and code snippets will be added here based on course tasks.*
+### Assignment 5 Walkthrough: *Introduction to LaTeX* Presentation
+[`Assignment 5`](./assignments/Assignment%205/source.tex) builds a 4-slide Beamer deck summarizing LaTeX document structure and key packages:
+
+- **Theme & Footer Metadata:** Uses `\useoutertheme{infolines}` to display short metadata brackets in the slide footer (`\title[Introduction to LaTeX]{...}`, `\author[Aryan Saraiya]{...}`, `\institute[Technical Writing]{...}`) with `\date{}` suppressed.
+- **Slide Breakdown ([`output.pdf`](./assignments/Assignment%205/output.pdf)):**
+  1. **Frame 1 (Title Page):** Renders the presentation title, subtitle (*A Document Preparation System*), author, and institute via `\titlepage`.
+  2. **Frame 2 (*Introduction to LaTeX*):** Presents four `itemize` points introducing LaTeX for academic, technical, and mathematical typesetting.
+  3. **Frame 3 (*Structure and Formatting*):** Uses nested `itemize` blocks to distinguish the **Preamble** from the **Document Body**, and introduces layout packages (`geometry`, `sectsty`, and `fancyhdr`).
+  4. **Frame 4 (*Conclusion*):** Summarizes consistency and package extensibility, adding `\vspace{0.5cm}` and `\centering` before the closing *"Thank You!"*.
 
 ---
 
 ## 📂 Assignment-Based Learning
 
 | Assignment | Description | Source Files | Output Files | Notes / Status |
-| :--- | :--- | :--- | :--- | :--- |
-| — | *Awaiting initial assignment* | — | — | ⏳ Pending |
+| :---: | :--- | :--- | :--- | :---: |
+| **Assignment 5** | 4-slide *Introduction to LaTeX* deck using `infolines` outer theme, short/full metadata, `itemize` frames, and package overview (`geometry`, `sectsty`, `fancyhdr`) | [`source.tex`](./assignments/Assignment%205/source.tex) | [`output.pdf`](./assignments/Assignment%205/output.pdf) | ✅ Completed |
 
 ---
 

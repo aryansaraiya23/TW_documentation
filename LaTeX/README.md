@@ -493,7 +493,18 @@ pdflatex document.tex
 | **Lecture 4** | *Exploring Table Styles in LaTeX* | Multi-column (`\multicolumn`), Multi-row (`\multirow`), Float Flags (`[h!]`), `colortbl` (`\columncolor`, `\rowcolor`, `\cellcolor`), `\tabcolsep`, `\arraystretch` | ✅ Documented |
 | **Lecture 5** | *Colours, Figures, and Picture Environment* | `xcolor` palettes & models, Highlights (`\colorbox`, `\fcolorbox`), Graphic Transforms (`angle`, `trim`/`clip`), `minipage` subfigures, 2D CAD `picture` environment | ✅ Documented |
 | **Lecture 6** | *Document Styles, Layouts, Boxes, Indexing, BibTeX & Debugging* | `book`/`letter`/`exam`, `geometry`, `fancyhdr`, `sectsty`, `enumitem`, `parbox`/`savebox`/`rule`/`raisebox`, `trivlist`, `makeidx`, BibTeX types, Error parsing | ✅ Documented |
-| **Assignments** | *Course Assignments* | Implementation and outputs will be archived in `assignments/` | ⏳ Awaiting Prompts |
+
+---
+
+## 📋 Assignment-Based Learning
+
+| Assignment | Description | Source & Output | Detailed Documentation | Status |
+| :---: | :--- | :--- | :--- | :---: |
+| **Assignment 1** | Document options (`12pt`, `a4paper`), TOC, escaping, lists, Schrödinger equation, `natbib` citations | [`source.tex`](./assignments/Assignment%201/source.tex), [`output.pdf`](./assignments/Assignment%201/output.pdf) | [Assignment 1 README](./assignments/Assignment%201/README.md) | ✅ Completed |
+| **Assignment 2** | Inline/block math, fractions, roots, math fonts, calculus, `gather`/`align`/`multline`, matrices | [`source.tex`](./assignments/Assignment%202/source.tex), [`output.pdf`](./assignments/Assignment%202/output.pdf) | [Assignment 2 README](./assignments/Assignment%202/README.md) | ✅ Completed |
+| **Assignment 3** | 14 questions: nested braces, `cases`, `array`, `multirow`, `colortbl`, `booktabs`, nested & math tables | [`source.tex`](./assignments/Assignment%203/source.tex), [`output.pdf`](./assignments/Assignment%203/output.pdf) | [Assignment 3 README](./assignments/Assignment%203/README.md) | ✅ Completed |
+| **Assignment 4** | Lists (`itemize`/`enumerate`/`description`), `xcolor` custom palettes, trimmed images, `minipage` figures | [`source.tex`](./assignments/Assignment%204/source.tex), [`output.pdf`](./assignments/Assignment%204/output.pdf) | [Assignment 4 README](./assignments/Assignment%204/README.md) | ✅ Completed |
+| **Assignment 6** | XeLaTeX `fontspec`, page colors, alphabetical sections, hyphenation, `\savebox`/`\fbox`, index & BibTeX | [`source.tex`](./assignments/Assignment%206/source.tex), [`output.pdf`](./assignments/Assignment%206/output.pdf) | [Assignment 6 README](./assignments/Assignment%206/README.md) | ✅ Completed |
 
 ---
 

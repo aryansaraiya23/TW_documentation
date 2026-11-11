@@ -1,0 +1,119 @@
+% Compile with XeLaTeX. Build order (index and bib need their own passes):
+%   xelatex assignment6 -> makeindex assignment6 -> bibtex assignment6
+%   -> xelatex assignment6 -> xelatex assignment6
+\documentclass[a4paper,10pt]{article}
+\usepackage[a4paper,left=4.5cm,right=4.5cm,top=4cm,bottom=4.5cm]{geometry}
+\usepackage{fontspec}
+\usepackage{amsmath}
+\usepackage{xcolor}
+\usepackage[noautomatic]{imakeidx}
+
+% --- Fonts ---
+\setmainfont{DejaVu Serif}
+\setsansfont{DejaVu Sans}
+\IfFontExistsTF{Courier New}{\setmonofont{Courier New}}{%
+\IfFontExistsTF{TeX Gyre Cursor}{\setmonofont{TeX Gyre Cursor}}{%
+\setmonofont{DejaVu Sans Mono}}}
+
+% --- Background colour ---
+\definecolor{bg}{RGB}{255,242,229}
+\pagecolor{bg}
+
+% --- Sections numbered A, B, C, ... ---
+\renewcommand{\thesection}{\Alph{section}}
+
+% --- Index (single column) ---
+\makeindex[columns=1]
+
+% --- Savebox ---
+\newsavebox{\msgbox}
+\sbox{\msgbox}{This message is written in a savebox.}
+
+\title{Assignment 6 - Document Structure}
+\author{Aryan Saraiya}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{quotation}\small
+Write \LaTeX{} code to output the following sections. Also follow any
+instructions provided in the document. Use \LaTeX{} reference and
+appropriate packages wherever required.
+\end{quotation}
+
+\section{Fonts and background}
+Try to match the page background color\index{background}. Then create the
+following trivlist:
+\begin{trivlist}
+\item This text is written in DejaVu Serif, the main font.
+\item \textsf{This text is written in DejaVu Sans, the sans-serif font.}
+\item \texttt{This text is written in Courier, the monospace font.}
+\end{trivlist}
+Use the package \texttt{fontspec} and make sure that you configure
+\emph{TeXstudio} to use \emph{XeLaTeX} as the default compiler.
+
+\section{Spacing}
+This is the first line of a paragraph.\\
+This is another line, but not another paragraph.
+
+\vspace{1cm}
+This paragraph starts 1cm below. Now, observe both the paragraphs given
+below and how they differ in hyphenation:
+
+> This is another paragraph. Incomprehensibilities and
+antidisestablishmentarianisms are two long words.
+
+{\hyphenpenalty=10000 \exhyphenpenalty=10000
+> This is another paragraph. Incomprehensibilities and
+antidisestablishmentarianisms are two long words.\par}
+
+Recreate the paragraphs above and then continue from next page, leaving
+space for section C.
+
+\newpage
+\setcounter{section}{3}% next section is D (C is left out)
+\section{Numbering}\index{numbering}
+Ensure that all sections are numbered using alphabets.
+\begin{equation}
+  \frac{x^2}{a^2} + \frac{y^2}{b^2} = 1
+\end{equation}
+\begin{equation}
+  x^2 + y^2 = 1
+  \label{eq:circle}
+\end{equation}
+Equation~\ref{eq:circle} denotes a circle. Now add the equation of an
+ellipse \textbf{before} the equation of the circle.
+
+\section{Boxes and Lines}
+\index{savebox}%
+\usebox{\msgbox}\\
+\usebox{\msgbox}\\
+\usebox{\msgbox}
+
+\medskip
+\noindent\parbox{5cm}{This message is wrapped in\\ a 5cm paragraph box.}
+
+\medskip
+\rule{1mm}{7mm}
+
+\medskip
+\noindent\fbox{\parbox{\dimexpr\textwidth-2\fboxsep-2\fboxrule\relax}{Note that these boxes are used for highlighting and layout design.}}
+
+\bigskip
+\noindent\rule{\textwidth}{1pt}
+
+\noindent Create an index of some relevant terms from this document. Also
+add the bibliography \cite{overleaf} as shown in the following pages. Add
+the missing entry to the Latex-in-short book \cite{lshort}, in the bib file
+attached and cite it appropriately. Carefully understand how index file and
+bib files are compiled.
+
+\newpage
+\printindex
+
+\newpage
+\bibliographystyle{tw_plain}
+\renewcommand{\refname}{References}
+\bibliography{references}
+\end{document}

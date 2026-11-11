@@ -220,14 +220,6 @@ Google Docs supports flexible import and export capabilities under `File -> Down
 
 ---
 
-## 📂 Assignment-Based Learning
-
-| Assignment | Description | Source Files / Links | Output Files | Notes / Status |
-| :--- | :--- | :--- | :--- | :--- |
-| — | *Awaiting initial course assignment* | — | — | ⏳ Pending |
-
----
-
 ## 📌 Key Takeaways
 
 1. **Seamless Real-Time Collaboration:** Synchronous multi-author editing, suggestions, and threaded comments streamline document review.
