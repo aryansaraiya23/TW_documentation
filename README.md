@@ -6,13 +6,13 @@ Welcome to the **Technical Writing (TW)** documentation repository. This reposit
 
 ## Topics Covered
 
-| Topic | Description | Documentation | Lecture Coverage |
-| :--- | :--- | :--- | :---: |
-| **LaTeX** | High-quality typesetting system for technical and scientific documentation. | [LaTeX Documentation](./LaTeX/README.md) | Lectures 1–6 (Documented) |
-| **Beamer** | LaTeX document class for creating professional presentation slides. | [Beamer Documentation](./Beamer/README.md) | Lecture 1 (Documented) |
-| **Doxygen** | Standard tool for generating documentation from annotated source code. | [Doxygen Documentation](./Doxygen/README.md) | Lecture 1 (Documented) |
-| **Google Docs** | Collaborative cloud-based word processing and document formatting. | [Google Docs Documentation](./Google-Docs/README.md) | Lecture 1 (Documented) |
-| **Git & GitHub** | Distributed version control, repository management, and collaboration workflows. | [Git & GitHub Documentation](./Git-GitHub/README.md) | Lecture 1 (Documented) |
+| Topic | Description | Documentation |
+| :--- | :--- | :--- |
+| **LaTeX** | High-quality typesetting system for technical and scientific documentation. | [LaTeX Documentation](./LaTeX/README.md) |
+| **Beamer** | LaTeX document class for creating professional presentation slides. | [Beamer Documentation](./Beamer/README.md) |
+| **Doxygen** | Standard tool for generating documentation from annotated source code. | [Doxygen Documentation](./Doxygen/README.md) |
+| **Google Docs** | Collaborative cloud-based word processing and document formatting. | [Google Docs Documentation](./Google-Docs/README.md) |
+| **Git & GitHub** | Distributed version control, repository management, and collaboration workflows. | [Git & GitHub Documentation](./Git-GitHub/README.md) |
 
 ---
 
