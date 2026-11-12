@@ -28,3 +28,12 @@ Advanced XeLaTeX document structuring assignment featuring custom system fonts v
   - Cites `\cite{overleaf}` and `\cite{lshort}`.
 - **Index & References (Pages 3–4):** Outputs the alphabetical term index (`\printindex`) on page 3 and BibTeX bibliography (`\bibliographystyle{tw_plain}`, `\bibliography{references}`) titled *References* on page 4.
 
+---
+
+## 💡 What I Learnt
+
+- **XeLaTeX & System Fonts:** Learned to configure custom system fonts (`fontspec`, `\IfFontExistsTF`) and page-wide backgrounds (`\pagecolor`) compiled with XeLaTeX.
+- **Layout, Counters & Hyphenation:** Practiced adjusting margins via `geometry`, changing section numbering to letters (`\Alph{section}`), skipping section counters (`\setcounter`), and disabling hyphenation (`\hyphenpenalty=10000`).
+- **Boxes & Rules:** Used `\savebox`/`\usebox` for reusable text, `\parbox` and `\fbox` for framed blocks, and `\rule` for horizontal/vertical lines.
+- **Multi-Pass Indexing & BibTeX:** Understood the full `xelatex -> makeindex -> bibtex -> xelatex -> xelatex` build pipeline for generating an index and bibliography.
+

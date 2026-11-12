@@ -24,3 +24,12 @@ Foundational LaTeX document demonstrating document class options, automatic tabl
   - Cross-references the equation dynamically with `Equation~\eqref{eq:schrodinger}` alongside textual citation `\citet{schrodinger1926}`.
 - **Bibliography:** Configured with `\bibliographystyle{agu}` and `\bibliography{physics}`, producing formatted references for Einstein (1905) and Schrödinger (1926) on page 2.
 
+---
+
+## 💡 What I Learnt
+
+- **Document Setup & Navigation:** Learned how `[12pt,a4paper]` configures global typography and page dimensions, and how `\tableofcontents` auto-generates section links.
+- **LaTeX Text Rules:** Understood whitespace collapsing, paragraph breaks, and escaping reserved characters (`\%`, `\$`, `\&`, `\#`, `\_`, `\{`, `\}`).
+- **Math & Cross-Referencing:** Practiced writing numbered equations (`equation` + `\label`) and referencing them dynamically with `\eqref`.
+- **Citations with `natbib`:** Learned the difference between parenthetical (`\citep`) and textual (`\citet`) citations linked to a `.bib` file.
+

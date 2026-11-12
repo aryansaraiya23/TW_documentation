@@ -29,3 +29,12 @@ Comprehensive 14-question assignment covering nested mathematical grouping, piec
 - **Que 13 – Nested Tables:** Embedded sub-`tabular` blocks inside the *Performance* column for CNN, ResNet, and ViT architectures.
 - **Que 14 – Math inside Tables:** Combines inline mathematical loss expressions ($\frac{1}{n}\sum (y - \hat{y}_i)^2$, $-\sum y \log \hat{y}_i$) and Big-$O$ complexities inside table cells.
 
+---
+
+## 💡 What I Learnt
+
+- **Advanced Math Grouping:** Learned how to nest `\overbrace` and `\underbrace` with `\text{}`, build piecewise functions with `cases`, and partition matrices using `array` and `\multicolumn`.
+- **Table Spanning & Wrapping:** Practiced merging cells across columns (`\multicolumn`) and rows (`\multirow`), and wrapping multi-line text using fixed-width `p{...}` columns.
+- **Color & Publication Styling:** Applied `xcolor`/`colortbl` (`\rowcolor`, `\cellcolor`) for heatmaps and `booktabs` (`\toprule`, `\midrule`, `\bottomrule`) for clean academic tables.
+- **Complex Table Layouts:** Learned how to embed nested `tabular` blocks and mathematical formulas inside table cells.
+

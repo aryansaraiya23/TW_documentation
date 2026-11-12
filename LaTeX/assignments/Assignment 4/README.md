@@ -28,3 +28,12 @@ Practical document demonstrating unordered/ordered/description lists, custom col
   - **Scaling & Cropping (Section 3.1):** Displays `Mnit_logo.png` first at `scale=0.5`, then cropped (`trim=0 0 0 150, clip`) and scaled to `width=\textwidth` inside floating `figure[h]` environments.
   - **Side-by-Side Minipages (Section 3.2):** Places two `0.45\textwidth` `minipage` blocks separated by `\quad`, using `\captionof{figure}{...}` from the `caption` package so figures sit side by side cleanly.
 
+---
+
+## 💡 What I Learnt
+
+- **List Environments:** Learned when to use `itemize`, `enumerate`, and `description` lists to structure technical comparisons.
+- **Custom Colors & Highlights:** Practiced defining colors with `RGB` (`\definecolor`) and mixing (`\colorlet`), and applying them via `\textcolor`, `\colorbox`, `\fcolorbox`, and `\rowcolor`.
+- **Image Manipulation & Floats:** Used `graphicx` options (`scale`, `width`, `trim`, `clip`) to resize and crop images, and `\clearpage` to flush pending table floats.
+- **Multi-Figure Layouts:** Learned how to place figures side by side using `minipage` and `\captionof{figure}`.
+

@@ -23,3 +23,12 @@ Exploration of LaTeX mathematical typesetting covering inline vs. block equation
   - `multline` for wrapping the long cubic expansion of $(x+y+z)^3$ across two lines.
 - **Matrices (Section 6):** Compares four `amsmath` matrix delimiters side by side: `matrix` (plain), `bmatrix` (`[...]`), `vmatrix` (`|...|`), and `pmatrix` (`(...)`).
 
+---
+
+## 💡 What I Learnt
+
+- **Inline vs. Display Math:** Learned when to embed equations inline (`$...$`) versus centered display blocks (`\[...\]`).
+- **Mathematical Notation:** Practiced typesetting fractions (`\frac`), roots (`\sqrt`), Greek symbols, logic quantifiers (`\forall`, `\exists`), calculus operators (`\partial`, `\int`), and math fonts (`\mathbf`, `\mathcal`).
+- **Multi-Line Environments:** Understood how `gather`, `align`, and `multline` handle equation numbering, alignment, and long expressions.
+- **Matrix Delimiters:** Learned the different `amsmath` matrix environments (`matrix`, `bmatrix`, `vmatrix`, `pmatrix`) for clean linear algebra formatting.
+

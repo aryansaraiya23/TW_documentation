@@ -1,0 +1,10 @@
+PROJECT_NAME           = "Calculation Engine"
+OUTPUT_DIRECTORY       = .
+INPUT                  = Logger.h CalculationEngine.h main.cpp
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+GENERATE_HTML          = YES
+HTML_OUTPUT            = doc_html
+GENERATE_LATEX         = YES
+LATEX_OUTPUT           = doc_latex
+GENERATE_TODOLIST      = YES

@@ -90,6 +90,11 @@ pdflatex presentation.tex
   3. **Frame 3 (*Structure and Formatting*):** Uses nested `itemize` blocks to distinguish the **Preamble** from the **Document Body**, and introduces layout packages (`geometry`, `sectsty`, and `fancyhdr`).
   4. **Frame 4 (*Conclusion*):** Summarizes consistency and package extensibility, adding `\vspace{0.5cm}` and `\centering` before the closing *"Thank You!"*.
 
+#### What I Learnt (Assignment 5)
+- **Beamer Presentation Structure:** Learned how to organize slides using `frame` environments and `\titlepage` instead of standard `article` sections.
+- **Outer Themes & Short Metadata:** Practiced using `\useoutertheme{infolines}` with bracketed short titles/authors (`\title[short]{full}`) so long metadata fits cleanly in slide footers.
+- **Slide-Friendly Formatting:** Used concise `itemize` lists, `\vspace`, and `\centering` to keep slides readable and balanced.
+
 ---
 
 ## 📂 Assignment-Based Learning

@@ -282,7 +282,7 @@ EXTRACT_ALL            = YES    # Document all entities even without doc blocks
 
 | Assignment | Description | Source Files | Output Files | Notes / Status |
 | :--- | :--- | :--- | :--- | :--- |
-| — | *Awaiting initial course assignment* | — | — | ⏳ Pending |
+| **Assignment 7** | Multi-file C++ *Calculation Engine* project (`@mainpage`, `@class`, `@enum`, `@todo`, collaboration & include graphs) | [`Doxyfile`](./assignments/Assignment%207/Doxyfile), [`Logger.h`](./assignments/Assignment%207/Logger.h), [`CalculationEngine.h`](./assignments/Assignment%207/CalculationEngine.h), [`main.cpp`](./assignments/Assignment%207/main.cpp) | [`refman.pdf`](./assignments/Assignment%207/refman.pdf), [`html_screenshot_mainpage.png`](./assignments/Assignment%207/html_screenshot_mainpage.png) | [Assignment 7 README](./assignments/Assignment%207/README.md) (✅ Completed) |
 
 ---
 

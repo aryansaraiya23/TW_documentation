@@ -1,6 +1,6 @@
 # Google Docs Documentation
 
-Comprehensive reference, document structure guidelines, collaborative workflows, and assignment walkthroughs for technical communication using **Google Docs**.
+Comprehensive reference, document structure guidelines, collaborative workflows for technical communication using **Google Docs**.
 
 ---
 
@@ -20,7 +20,6 @@ Comprehensive reference, document structure guidelines, collaborative workflows,
 - [Best Practices for Collaborative Documentation](#best-practices-for-collaborative-documentation)
 - [Google Docs vs. Doxygen](#google-docs-vs-doxygen)
 - [Lecture Coverage Tracker](#lecture-coverage-tracker)
-- [Assignment-Based Learning](#assignment-based-learning)
 - [Key Takeaways](#key-takeaways)
 - [References & Resources](#references--resources)
 
