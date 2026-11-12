@@ -7,7 +7,7 @@ Comprehensive 14-question assignment covering nested mathematical grouping, piec
 
 ---
 
-## 🔍 Analysis & Implementation Details
+## Analysis & Implementation Details
 
 ### 1. Document Setup & Preamble
 - **Packages:** `amsmath`, `multirow`, `xcolor`, `colortbl`, and `booktabs`.
@@ -31,7 +31,7 @@ Comprehensive 14-question assignment covering nested mathematical grouping, piec
 
 ---
 
-## 💡 What I Learnt
+## What I Learnt
 
 - **Advanced Math Grouping:** Learned how to nest `\overbrace` and `\underbrace` with `\text{}`, build piecewise functions with `cases`, and partition matrices using `array` and `\multicolumn`.
 - **Table Spanning & Wrapping:** Practiced merging cells across columns (`\multicolumn`) and rows (`\multirow`), and wrapping multi-line text using fixed-width `p{...}` columns.

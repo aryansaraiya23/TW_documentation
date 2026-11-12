@@ -4,7 +4,7 @@ Comprehensive reference, concept guides, syntax explanations, and assignment wal
 
 ---
 
-## 📖 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Concepts Learned](#concepts-learned)
@@ -34,13 +34,13 @@ Comprehensive reference, concept guides, syntax explanations, and assignment wal
 
 ---
 
-## 🔍 Overview
+## Overview
 
 LaTeX is an open-source document preparation and typesetting system built on Donald Knuth's TeX engine. Developed by Leslie Lamport, it is the standard for academic publications, engineering theses, and mathematical literature. LaTeX enforces a declarative paradigm: the author writes structured plain text, and the compilation engine handles typography, page breaking, numbering, and cross-references.
 
 ---
 
-## 💡 Concepts Learned
+## Concepts Learned
 
 ### 1. Fundamental Principles & Architecture
 - **LaTeX vs. Word Processors (WYSIWYG):** In MS Word, effort increases exponentially as document size and complexity grow (formatting glitches, layout shifts). In LaTeX, initial effort is higher due to markup syntax, but effort remains constant regardless of document length.
@@ -90,7 +90,7 @@ LaTeX is an open-source document preparation and typesetting system built on Don
 ### 4. Mathematical Typesetting
 - **Required Packages:** `amsmath`, `amssymb` for advanced mathematical symbols and formatting.
 - **Math Modes:**
-  - *Inline Math:* Rendered within running text using `$ ... $` or `\( ... \)`.
+  - *Inline Math:* Rendered within running text using `$ ... $` or `\(... \)`.
   - *Display Math:* Centered on a new line using `\[ ... \]` or `\begin{displaymath} ... \end{displaymath}`.
   - *Numbered Display Math:* Created via `\begin{equation} ... \end{equation}`.
 - **Subscripts and Superscripts:** Subscripts use `_` (e.g., `x_i`), superscripts use `^` (e.g., `x^2`). Multi-character tokens must be grouped in braces (`x_{i+1}`, `e^{-x}`).
@@ -121,13 +121,13 @@ LaTeX is an open-source document preparation and typesetting system built on Don
   - Used with `\left\{ ... \right.` to render piecewise functions.
 - **Matrices (`amsmath`):**
   - `matrix`: Unenclosed matrix.
-  - `pmatrix`: Parentheses `( )`.
+  - `pmatrix`: Parentheses `()`.
   - `bmatrix`: Square brackets `[ ]`.
   - `Bmatrix`: Curly braces `{ }`.
   - `vmatrix`: Single vertical bars `| |` (determinants).
   - `Vmatrix`: Double vertical bars `|| ||` (matrix norms).
   - Row spacing: `\\[6pt]` adds custom vertical space between rows.
-  - Inline compact matrices: `\left( \begin{smallmatrix} ... \end{smallmatrix} \right)` prevents line-height disruption.
+  - Inline compact matrices: `\left(\begin{smallmatrix} ... \end{smallmatrix} \right)` prevents line-height disruption.
 
 ### 6. Floats, Tables, Cross-Referencing & Citations
 - **Tables:** Built using `\begin{tabular}{specs} ... \end{tabular}`. Uses `l`, `c`, `r` alignment, vertical bars `|`, `\hline` for horizontal borders, `&` for column separation, and `\\` for line breaks.
@@ -321,7 +321,7 @@ LaTeX is an open-source document preparation and typesetting system built on Don
 
 ---
 
-## 🏷️ Important Terminology
+## Important Terminology
 
 | Term | Definition |
 | :--- | :--- |
@@ -343,7 +343,7 @@ LaTeX is an open-source document preparation and typesetting system built on Don
 
 ---
 
-## 💻 Syntax and Core Commands
+## Syntax and Core Commands
 
 ### 1. Document Configuration, Geometry & Headers
 ```latex
@@ -462,7 +462,7 @@ Cited work: \cite{lamport94}.
 
 ---
 
-## 📝 Explanations & Practical Examples
+## Explanations & Practical Examples
 
 ### Systematic Compilation Cycles
 To compile a complete professional document with citations, indices, and cross-references:
@@ -483,32 +483,32 @@ pdflatex document.tex
 
 ---
 
-## 📂 Lecture Coverage & Coursework Tracker
+## Lecture Coverage & Coursework Tracker
 
 | Unit / Lecture | Topic Title | Core Concepts Covered | Status |
 | :---: | :--- | :--- | :---: |
-| **Lecture 1** | *Introduction to LaTeX* | Toolchain, Document Classes, Preamble/Body, Formatting, Tables, Figures, References, Bibliography | ✅ Documented |
-| **Lecture 2** | *Math Notations, Equations, Array, Matrices, Lists* | Inline/Display Math, Calculus/Summations, Numbered Equations, Delimited Matrices, Arrays, Piecewise | ✅ Documented |
-| **Lecture 3** | *Exploring Math Display Styles in LaTeX* | Math Fonts (`\mathbb`, `\mathfrak`), `amsmath` Multiline (`align*`, `gather*`, `multline*`), Spacing | ✅ Documented |
-| **Lecture 4** | *Exploring Table Styles in LaTeX* | Multi-column (`\multicolumn`), Multi-row (`\multirow`), Float Flags (`[h!]`), `colortbl` (`\columncolor`, `\rowcolor`, `\cellcolor`), `\tabcolsep`, `\arraystretch` | ✅ Documented |
-| **Lecture 5** | *Colours, Figures, and Picture Environment* | `xcolor` palettes & models, Highlights (`\colorbox`, `\fcolorbox`), Graphic Transforms (`angle`, `trim`/`clip`), `minipage` subfigures, 2D CAD `picture` environment | ✅ Documented |
-| **Lecture 6** | *Document Styles, Layouts, Boxes, Indexing, BibTeX & Debugging* | `book`/`letter`/`exam`, `geometry`, `fancyhdr`, `sectsty`, `enumitem`, `parbox`/`savebox`/`rule`/`raisebox`, `trivlist`, `makeidx`, BibTeX types, Error parsing | ✅ Documented |
+| **Lecture 1** | *Introduction to LaTeX* | Toolchain, Document Classes, Preamble/Body, Formatting, Tables, Figures, References, Bibliography | Documented |
+| **Lecture 2** | *Math Notations, Equations, Array, Matrices, Lists* | Inline/Display Math, Calculus/Summations, Numbered Equations, Delimited Matrices, Arrays, Piecewise | Documented |
+| **Lecture 3** | *Exploring Math Display Styles in LaTeX* | Math Fonts (`\mathbb`, `\mathfrak`), `amsmath` Multiline (`align*`, `gather*`, `multline*`), Spacing | Documented |
+| **Lecture 4** | *Exploring Table Styles in LaTeX* | Multi-column (`\multicolumn`), Multi-row (`\multirow`), Float Flags (`[h!]`), `colortbl` (`\columncolor`, `\rowcolor`, `\cellcolor`), `\tabcolsep`, `\arraystretch` | Documented |
+| **Lecture 5** | *Colours, Figures, and Picture Environment* | `xcolor` palettes & models, Highlights (`\colorbox`, `\fcolorbox`), Graphic Transforms (`angle`, `trim`/`clip`), `minipage` subfigures, 2D CAD `picture` environment | Documented |
+| **Lecture 6** | *Document Styles, Layouts, Boxes, Indexing, BibTeX & Debugging* | `book`/`letter`/`exam`, `geometry`, `fancyhdr`, `sectsty`, `enumitem`, `parbox`/`savebox`/`rule`/`raisebox`, `trivlist`, `makeidx`, BibTeX types, Error parsing | Documented |
 
 ---
 
-## 📋 Assignment-Based Learning
+## Assignment-Based Learning
 
 | Assignment | Description | Source & Output | Detailed Documentation | Status |
 | :---: | :--- | :--- | :--- | :---: |
-| **Assignment 1** | Document options (`12pt`, `a4paper`), TOC, escaping, lists, Schrödinger equation, `natbib` citations | [`source.tex`](./assignments/Assignment%201/source.tex), [`output.pdf`](./assignments/Assignment%201/output.pdf) | [Assignment 1 README](./assignments/Assignment%201/README.md) | ✅ Completed |
-| **Assignment 2** | Inline/block math, fractions, roots, math fonts, calculus, `gather`/`align`/`multline`, matrices | [`source.tex`](./assignments/Assignment%202/source.tex), [`output.pdf`](./assignments/Assignment%202/output.pdf) | [Assignment 2 README](./assignments/Assignment%202/README.md) | ✅ Completed |
-| **Assignment 3** | 14 questions: nested braces, `cases`, `array`, `multirow`, `colortbl`, `booktabs`, nested & math tables | [`source.tex`](./assignments/Assignment%203/source.tex), [`output.pdf`](./assignments/Assignment%203/output.pdf) | [Assignment 3 README](./assignments/Assignment%203/README.md) | ✅ Completed |
-| **Assignment 4** | Lists (`itemize`/`enumerate`/`description`), `xcolor` custom palettes, trimmed images, `minipage` figures | [`source.tex`](./assignments/Assignment%204/source.tex), [`output.pdf`](./assignments/Assignment%204/output.pdf) | [Assignment 4 README](./assignments/Assignment%204/README.md) | ✅ Completed |
-| **Assignment 6** | XeLaTeX `fontspec`, page colors, alphabetical sections, hyphenation, `\savebox`/`\fbox`, index & BibTeX | [`source.tex`](./assignments/Assignment%206/source.tex), [`output.pdf`](./assignments/Assignment%206/output.pdf) | [Assignment 6 README](./assignments/Assignment%206/README.md) | ✅ Completed |
+| **Assignment 1** | Document options (`12pt`, `a4paper`), TOC, escaping, lists, Schrödinger equation, `natbib` citations | [`source.tex`](./assignments/Assignment%201/source.tex), [`output.pdf`](./assignments/Assignment%201/output.pdf) | [Assignment 1 README](./assignments/Assignment%201/README.md) | Completed |
+| **Assignment 2** | Inline/block math, fractions, roots, math fonts, calculus, `gather`/`align`/`multline`, matrices | [`source.tex`](./assignments/Assignment%202/source.tex), [`output.pdf`](./assignments/Assignment%202/output.pdf) | [Assignment 2 README](./assignments/Assignment%202/README.md) | Completed |
+| **Assignment 3** | 14 questions: nested braces, `cases`, `array`, `multirow`, `colortbl`, `booktabs`, nested & math tables | [`source.tex`](./assignments/Assignment%203/source.tex), [`output.pdf`](./assignments/Assignment%203/output.pdf) | [Assignment 3 README](./assignments/Assignment%203/README.md) | Completed |
+| **Assignment 4** | Lists (`itemize`/`enumerate`/`description`), `xcolor` custom palettes, trimmed images, `minipage` figures | [`source.tex`](./assignments/Assignment%204/source.tex), [`output.pdf`](./assignments/Assignment%204/output.pdf) | [Assignment 4 README](./assignments/Assignment%204/README.md) | Completed |
+| **Assignment 6** | XeLaTeX `fontspec`, page colors, alphabetical sections, hyphenation, `\savebox`/`\fbox`, index & BibTeX | [`source.tex`](./assignments/Assignment%206/source.tex), [`output.pdf`](./assignments/Assignment%206/output.pdf) | [Assignment 6 README](./assignments/Assignment%206/README.md) | Completed |
 
 ---
 
-## 🎯 Key Takeaways & Best Practices
+## Key Takeaways & Best Practices
 
 - **Preamble Hygiene:** Keep all package declarations (`\usepackage`) and document-level configurations exclusively in the preamble.
 - **Float Placement & Flushing:** Use `\clearpage` before major headings to force pending floats to render, avoiding accumulation at the document end.
@@ -518,7 +518,7 @@ pdflatex document.tex
 
 ---
 
-## 🔗 References & Resources
+## References & Resources
 
 - [The Not So Short Introduction to LaTeX2e](https://tobi.oetiker.ch/lshort/lshort.pdf)
 - [LaTeX Fancyhdr Package Documentation](https://ctan.org/pkg/fancyhdr)

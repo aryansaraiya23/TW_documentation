@@ -7,7 +7,7 @@ Detailed walkthrough and documentation of basic Git commands covering repository
 
 ---
 
-## 📋 Tasks Overview
+## Tasks Overview
 
 - **Task 1 (Initialize):** `git --version`, `git init`
 - **Task 2 (Configure):** `git config user.name`, `git config user.email`
@@ -24,7 +24,7 @@ Detailed walkthrough and documentation of basic Git commands covering repository
 
 ---
 
-## 💡 What I Learnt
+## What I Learnt
 
 - **Repository Setup & Tracking:** Learned how `git init`, `git config`, `git add`, `git status`, and `git commit` establish a versioned project history.
 - **Inspecting & Undoing Changes:** Practiced viewing line-level diffs (`git diff`), discarding unstaged edits (`git restore`), unstaging files (`git restore --staged`), and safely reversing past commits (`git revert`).

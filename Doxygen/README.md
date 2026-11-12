@@ -4,7 +4,7 @@ Comprehensive reference, concept guides, syntax explanations, configuration mech
 
 ---
 
-## 📖 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Concepts Learned](#concepts-learned)
@@ -27,7 +27,7 @@ Comprehensive reference, concept guides, syntax explanations, configuration mech
 
 ---
 
-## 🔍 Overview
+## Overview
 
 **Doxygen** is the industry-standard, open-source documentation generator for software projects written in languages such as C, C++, Python, Java, PHP, and C#. It parses specially formatted comments directly embedded in source code files to generate comprehensive, hyperlinked reference manuals in multiple formats, including HTML, LaTeX, PDF, RTF, and XML.
 
@@ -35,7 +35,7 @@ In modern software development, Doxygen bridges the gap between code implementat
 
 ---
 
-## 💡 Concepts Learned
+## Concepts Learned
 
 ### Why Documentation Matters
 - **Requirement Clarity:** Clarifies architectural design, function contracts, and software specifications.
@@ -51,7 +51,7 @@ In modern software development, Doxygen bridges the gap between code implementat
 
 ---
 
-## 🏷️ Important Terminology
+## Important Terminology
 
 | Term | Definition |
 | :--- | :--- |
@@ -64,7 +64,7 @@ In modern software development, Doxygen bridges the gap between code implementat
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 | Operating System | Installation Command / Method | Verification |
 | :--- | :--- | :--- |
@@ -77,7 +77,7 @@ In modern software development, Doxygen bridges the gap between code implementat
 
 ---
 
-## 🔄 Doxygen Workflow
+## Doxygen Workflow
 
 ```mermaid
 flowchart LR
@@ -103,7 +103,7 @@ flowchart LR
 
 ---
 
-## 💻 Comment Syntax and Common Tags
+## Comment Syntax and Common Tags
 
 ### C / C++ / Java Comment Syntax
 
@@ -178,7 +178,7 @@ def foo(bar):
 
 ---
 
-## 📊 Advanced Features: Grouping & Diagrams
+## Advanced Features: Grouping & Diagrams
 
 ### Logical Member Grouping
 Use `//@{` and `//@}` (or `/*@{*/` and `/*@}*/`) to group related constants, functions, or members together in the generated output:
@@ -210,7 +210,7 @@ Directly embed custom Graphviz or PlantUML diagrams within comments:
 
 ---
 
-## 🛠️ Configuration and Output Formats (`Doxyfile`)
+## Configuration and Output Formats (`Doxyfile`)
 
 Doxygen produces documentation in various target formats controlled by boolean flags in the `Doxyfile`:
 
@@ -241,7 +241,7 @@ EXTRACT_ALL            = YES    # Document all entities even without doc blocks
 
 ---
 
-## 🎯 Best Practices & Version Control
+## Best Practices & Version Control
 
 - **Contract over Implementation:** Document the *purpose*, preconditions, and postconditions of an API rather than merely repeating parameter names.
 - **Distinct Brief & Details:** Keep `\brief` short and concise; place longer explanations in separate paragraphs or `\details`.
@@ -255,7 +255,7 @@ EXTRACT_ALL            = YES    # Document all entities even without doc blocks
 
 ---
 
-## ⚖️ Doxygen vs. Google Docs
+## Doxygen vs. Google Docs
 
 | Feature | Doxygen | Google Docs |
 | :--- | :--- | :--- |
@@ -270,23 +270,23 @@ EXTRACT_ALL            = YES    # Document all entities even without doc blocks
 
 ---
 
-## 📅 Lecture Coverage Tracker
+## Lecture Coverage Tracker
 
 | Lecture | Topic / Scope | Status | Source PPT / Materials |
 | :-: | :--- | :---: | :--- |
-| **Lecture 1** | Introduction to Documentation Tools: Doxygen & Google Docs | ✅ Documented | Slides 1–16, 32–33, 36–37 (Dr. Neeta Nain, MNIT Jaipur) |
+| **Lecture 1** | Introduction to Documentation Tools: Doxygen & Google Docs | Documented | Slides 1–16, 32–33, 36–37 (Dr. Neeta Nain, MNIT Jaipur) |
 
 ---
 
-## 📂 Assignment-Based Learning
+## Assignment-Based Learning
 
 | Assignment | Description | Source Files | Output Files | Notes / Status |
 | :--- | :--- | :--- | :--- | :--- |
-| **Assignment 7** | Multi-file C++ *Calculation Engine* project (`@mainpage`, `@class`, `@enum`, `@todo`, collaboration & include graphs) | [`Doxyfile`](./assignments/Assignment%207/Doxyfile), [`Logger.h`](./assignments/Assignment%207/Logger.h), [`CalculationEngine.h`](./assignments/Assignment%207/CalculationEngine.h), [`main.cpp`](./assignments/Assignment%207/main.cpp) | [`refman.pdf`](./assignments/Assignment%207/refman.pdf), [`html_screenshot_mainpage.png`](./assignments/Assignment%207/html_screenshot_mainpage.png) | [Assignment 7 README](./assignments/Assignment%207/README.md) (✅ Completed) |
+| **Assignment 7** | Multi-file C++ *Calculation Engine* project (`@mainpage`, `@class`, `@enum`, `@todo`, collaboration & include graphs) | [`Doxyfile`](./assignments/Assignment%207/Doxyfile), [`Logger.h`](./assignments/Assignment%207/Logger.h), [`CalculationEngine.h`](./assignments/Assignment%207/CalculationEngine.h), [`main.cpp`](./assignments/Assignment%207/main.cpp) | [`refman.pdf`](./assignments/Assignment%207/refman.pdf), [`html_screenshot_mainpage.png`](./assignments/Assignment%207/html_screenshot_mainpage.png) | [Assignment 7 README](./assignments/Assignment%207/README.md) (Completed) |
 
 ---
 
-## 📌 Key Takeaways
+## Key Takeaways
 
 1. **Automates Code Documentation:** Doxygen eliminates manual duplication by turning inline comments into hyperlinked documentation.
 2. **Visualizes Architecture:** Automatically produces call graphs and inheritance hierarchies via Graphviz.
@@ -295,7 +295,7 @@ EXTRACT_ALL            = YES    # Document all entities even without doc blocks
 
 ---
 
-## 🔗 References & Resources
+## References & Resources
 
 - [Official Doxygen Manual](https://www.doxygen.nl/manual/)
 - [Doxygen Special Commands Reference](https://www.doxygen.nl/manual/commands.html)

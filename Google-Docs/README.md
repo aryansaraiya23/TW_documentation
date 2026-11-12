@@ -4,7 +4,7 @@ Comprehensive reference, document structure guidelines, collaborative workflows 
 
 ---
 
-## 📖 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Concepts Learned](#concepts-learned)
@@ -25,7 +25,7 @@ Comprehensive reference, document structure guidelines, collaborative workflows 
 
 ---
 
-## 🔍 Overview
+## Overview
 
 **Google Docs** is a cloud-native word processor within the Google Workspace ecosystem designed for real-time collaborative document creation, editing, and reviewing. It provides browser-based and multi-device access with automatic continuous saving to Google Drive.
 
@@ -33,7 +33,7 @@ In technical and professional communication, Google Docs is the tool of choice f
 
 ---
 
-## 💡 Concepts Learned
+## Concepts Learned
 
 ### Core Capabilities of Google Docs
 - **Real-Time Concurrent Authoring:** Multi-user editing with synchronized cursors, presence awareness, and in-document chat.
@@ -45,7 +45,7 @@ In technical and professional communication, Google Docs is the tool of choice f
 
 ---
 
-## 🏷️ Important Terminology
+## Important Terminology
 
 | Term | Definition |
 | :--- | :--- |
@@ -58,7 +58,7 @@ In technical and professional communication, Google Docs is the tool of choice f
 
 ---
 
-## 📑 Document Structure & Semantic Paragraph Styles
+## Document Structure & Semantic Paragraph Styles
 
 ### Hierarchy of Styles
 To ensure structural consistency, accessible reading, and clean exports, Google Docs relies on semantic styling:
@@ -91,7 +91,7 @@ Document Title
 
 ---
 
-## 👥 Real-Time Collaboration & Review Modes
+## Real-Time Collaboration & Review Modes
 
 ### Access Permission Levels
 
@@ -106,13 +106,13 @@ flowchart TD
 
 ### Collaboration Features
 - **Live Cursors:** View real-time collaborator cursors, text highlights, and avatar badges.
-- **Suggestion Mode:** Allows contributors to make tracked edits. Document owners/editors can accept (`✓`) or reject (`✗`) each proposed modification individually.
+- **Suggestion Mode:** Allows contributors to make tracked edits. Document owners/editors can accept or reject each proposed modification individually.
 - **Comment Threads & Mentions:** Highlight any text and type `@email` to assign action items to specific team members.
 - **In-Doc Chat:** Enables synchronous side discussions without cluttering the document body.
 
 ---
 
-## 🕒 Version History and Recovery
+## Version History and Recovery
 
 Google Docs automatically saves every keystroke to Google Drive, maintaining a comprehensive revision trail.
 
@@ -124,7 +124,7 @@ Google Docs automatically saves every keystroke to Google Drive, maintaining a c
 
 ---
 
-## 🎨 Rich Media, Equations & Code Snippets
+## Rich Media, Equations & Code Snippets
 
 - **Images:** Insert images via `Insert -> Image` (upload from computer, Google Drive, Photos, camera, or web search). Set text wrapping to *In line*, *Wrap text*, or *Break text*.
 - **Google Drawings (`Insert -> Drawing`):** Built-in vector canvas to create flowcharts, callout boxes, custom diagrams, and arrows directly within the document.
@@ -134,7 +134,7 @@ Google Docs automatically saves every keystroke to Google Drive, maintaining a c
 
 ---
 
-## 📚 Citations and Bibliography
+## Citations and Bibliography
 
 Google Docs includes an integrated referencing tool for academic and technical research:
 
@@ -151,7 +151,7 @@ Tools -> Citations
 
 ---
 
-## 🔒 Security, Permissions & Sharing Controls
+## Security, Permissions & Sharing Controls
 
 - **Granular Link Sharing:** Restrict links to specific individuals, domain-only users (e.g., college domain), or public with a link.
 - **Access Expiration:** Set expiration timers on shared links or viewer/commenter permissions.
@@ -161,7 +161,7 @@ Tools -> Citations
 
 ---
 
-## 🔌 Integrations & Script Automation
+## Integrations & Script Automation
 
 - **Google Workspace Services:** Seamlessly embed linked charts from **Google Sheets**, slide decks from **Google Slides**, and meetings via **Google Meet**.
 - **Third-Party Diagramming Add-ons:** Connect **Lucidchart**, **diagrams.net (draw.io)**, or **MathType** directly through `Extensions -> Add-ons`.
@@ -170,7 +170,7 @@ Tools -> Citations
 
 ---
 
-## 📤 Exporting and Publishing Formats
+## Exporting and Publishing Formats
 
 Google Docs supports flexible import and export capabilities under `File -> Download`:
 
@@ -189,7 +189,7 @@ Google Docs supports flexible import and export capabilities under `File -> Down
 
 ---
 
-## 🎯 Best Practices for Collaborative Documentation
+## Best Practices for Collaborative Documentation
 
 1. **Consistent Style Guide & Templates:** Adopt standardized corporate or academic templates for fonts, margins, and headings.
 2. **Strict Heading Discipline:** Never simulate headings using bold text or manual font enlargement; always use semantic `Heading 1`, `Heading 2`, and `Heading 3`.
@@ -199,7 +199,7 @@ Google Docs supports flexible import and export capabilities under `File -> Down
 
 ---
 
-## ⚖️ Google Docs vs. Doxygen
+## Google Docs vs. Doxygen
 
 | Feature | Google Docs | Doxygen |
 | :--- | :--- | :--- |
@@ -211,15 +211,15 @@ Google Docs supports flexible import and export capabilities under `File -> Down
 
 ---
 
-## 📅 Lecture Coverage Tracker
+## Lecture Coverage Tracker
 
 | Lecture | Topic / Scope | Status | Source PPT / Materials |
 | :-: | :--- | :---: | :--- |
-| **Lecture 1** | Introduction to Documentation Tools: Doxygen & Google Docs | ✅ Documented | Slides 17–33, 36–37 (Dr. Neeta Nain, MNIT Jaipur) |
+| **Lecture 1** | Introduction to Documentation Tools: Doxygen & Google Docs | Documented | Slides 17–33, 36–37 (Dr. Neeta Nain, MNIT Jaipur) |
 
 ---
 
-## 📌 Key Takeaways
+## Key Takeaways
 
 1. **Seamless Real-Time Collaboration:** Synchronous multi-author editing, suggestions, and threaded comments streamline document review.
 2. **Document Structure Powers Automation:** Semantic headings automatically generate navigable Tables of Contents and preserve document outline fidelity.
@@ -228,7 +228,7 @@ Google Docs supports flexible import and export capabilities under `File -> Down
 
 ---
 
-## 🔗 References & Resources
+## References & Resources
 
 - [Google Docs Help Center](https://support.google.com/docs)
 - [Google Workspace Learning Center](https://support.google.com/a/users/answer/9300311)

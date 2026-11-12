@@ -4,7 +4,7 @@ Comprehensive reference, architectural explanations, command workflows, and coll
 
 ---
 
-## 📖 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Concepts Learned](#concepts-learned)
@@ -28,13 +28,13 @@ Comprehensive reference, architectural explanations, command workflows, and coll
 
 ---
 
-## 🔍 Overview
+## Overview
 
 Version control is a foundational engineering discipline that systematically tracks modifications to source code, documentation, and configuration files over time. It creates an immutable historical ledger that enables rollback, auditing, and seamless multi-developer collaboration without destructive overwriting.
 
 ---
 
-## 💡 Concepts Learned
+## Concepts Learned
 
 ### 1. Principles of Version Control
 - **The "Ad-Hoc" Anti-Pattern:** Manual file backups (`project_final.py`, `project_final_latest_fixed.py`) create ambiguity regarding the canonical version, lack diff visibility, and make multi-author collaboration error-prone.
@@ -127,7 +127,7 @@ result = 20         # Incoming branch state
 
 ---
 
-## 🏷️ Important Terminology
+## Important Terminology
 
 | Term | Definition |
 | :--- | :--- |
@@ -145,7 +145,7 @@ result = 20         # Incoming branch state
 
 ---
 
-## 💻 Syntax and Core Command Reference
+## Syntax and Core Command Reference
 
 ### 1. Initialization & Global Configuration
 ```bash
@@ -253,7 +253,7 @@ git push origin v1.0.0
 
 ---
 
-## 📝 Explanations & Practical Examples
+## Explanations & Practical Examples
 
 ### Standard Feature-Branch Collaboration Workflow
 In professional engineering teams, developers never push directly to `main`. The canonical lifecycle:
@@ -272,26 +272,26 @@ In professional engineering teams, developers never push directly to `main`. The
 
 ---
 
-## 📂 Assignment-Based Learning
+## Assignment-Based Learning
 
 | Assignment | Title / Description | Source Files | Detailed Documentation | Status |
 | :---: | :--- | :--- | :--- | :---: |
-| **Assignment 8** | **Git Basics:** Repo init, author config, file tracking (`readme.txt`), staging, committing, `git diff`, `git restore`, history logs, `git revert`, python program (`vecadd.py`), `git rm`, detached `HEAD` checkout. | [`vecadd.py`](./assignments/Assignment-8/vecadd.py) | [Assignment 8 Documentation](./assignments/Assignment-8/README.md) | ✅ Completed |
-| **Assignment 9** | **Git Branching:** Observing `HEAD`, branch creation (`fast`), renaming (`parallel`), switching, parallel dot product with `multiprocessing`, bug fix on `master`, resolving merge conflicts in VS Code, deleting branch, exploring `git stash`. | [`vecadd.py`](./assignments/Assignment-9/vecadd.py) | [Assignment 9 Documentation](./assignments/Assignment-9/README.md) | ✅ Completed |
+| **Assignment 8** | **Git Basics:** Repo init, author config, file tracking (`readme.txt`), staging, committing, `git diff`, `git restore`, history logs, `git revert`, python program (`vecadd.py`), `git rm`, detached `HEAD` checkout. | [`vecadd.py`](./assignments/Assignment-8/vecadd.py) | [Assignment 8 Documentation](./assignments/Assignment-8/README.md) | Completed |
+| **Assignment 9** | **Git Branching:** Observing `HEAD`, branch creation (`fast`), renaming (`parallel`), switching, parallel dot product with `multiprocessing`, bug fix on `master`, resolving merge conflicts in VS Code, deleting branch, exploring `git stash`. | [`vecadd.py`](./assignments/Assignment-9/vecadd.py) | [Assignment 9 Documentation](./assignments/Assignment-9/README.md) | Completed |
 
 ---
 
-## 📂 Lecture Coverage & Coursework Tracker
+## Lecture Coverage & Coursework Tracker
 
 | Unit / Lecture | Topic Title | Core Concepts Covered | Status |
 | :---: | :--- | :--- | :---: |
-| **Lecture 1** | *Version Control Tools: Git and GitHub* | VCS Principles, CVCS vs. DVCS, Three Main Areas, Global Configuration, Staging/Committing, History Logs, `.gitignore`, File Moves/Deletions, Branching, Merging & Conflicts, Rebase, GitHub Remotes, Pull Requests, Code Reviews, Tags/Releases, Common Errors & Diagnostics | ✅ Documented |
-| **Assignment 8** | *Git Basics* | Init, Config, Staging, Commit, Diff, Restore, Log, Revert, File Removal, Detached HEAD | ✅ Documented |
-| **Assignment 9** | *Git Branching* | Branching, Renaming, Parallel Multiprocessing, Divergence, Merge Conflict Resolution, Stashing | ✅ Documented |
+| **Lecture 1** | *Version Control Tools: Git and GitHub* | VCS Principles, CVCS vs. DVCS, Three Main Areas, Global Configuration, Staging/Committing, History Logs, `.gitignore`, File Moves/Deletions, Branching, Merging & Conflicts, Rebase, GitHub Remotes, Pull Requests, Code Reviews, Tags/Releases, Common Errors & Diagnostics | Documented |
+| **Assignment 8** | *Git Basics* | Init, Config, Staging, Commit, Diff, Restore, Log, Revert, File Removal, Detached HEAD | Documented |
+| **Assignment 9** | *Git Branching* | Branching, Renaming, Parallel Multiprocessing, Divergence, Merge Conflict Resolution, Stashing | Documented |
 
 ---
 
-## 🎯 Key Takeaways & Best Practices
+## Key Takeaways & Best Practices
 
 - **Atomic, Meaningful Commits:** Each commit should represent a single logical unit of change. Write imperative commit messages (`Add division error handling` rather than `updates` or `bug fix`).
 - **Never Rewrite Shared History:** Do not rebase, force-push (`--force`), or reset commits that have already been integrated into remote collaborative branches.
@@ -301,7 +301,7 @@ In professional engineering teams, developers never push directly to `main`. The
 
 ---
 
-## 🔗 References & Resources
+## References & Resources
 
 - [Official Git Documentation & Reference Manual](https://git-scm.com/doc)
 - [Pro Git Book by Scott Chacon and Ben Straub](https://git-scm.com/book/en/v2)

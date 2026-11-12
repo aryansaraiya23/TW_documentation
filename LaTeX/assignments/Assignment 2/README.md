@@ -6,7 +6,7 @@ Exploration of LaTeX mathematical typesetting covering inline vs. block equation
 - **Compiled Output:** [`output.pdf`](./output.pdf) 
 ---
 
-## 🔍 Analysis & Implementation Details
+## Analysis & Implementation Details
 
 ### 1. Document Setup & Preamble
 - **Document Class & Packages:** Uses `\documentclass[12pt]{article}` and `\usepackage{amsmath}`.
@@ -25,7 +25,7 @@ Exploration of LaTeX mathematical typesetting covering inline vs. block equation
 
 ---
 
-## 💡 What I Learnt
+## What I Learnt
 
 - **Inline vs. Display Math:** Learned when to embed equations inline (`$...$`) versus centered display blocks (`\[...\]`).
 - **Mathematical Notation:** Practiced typesetting fractions (`\frac`), roots (`\sqrt`), Greek symbols, logic quantifiers (`\forall`, `\exists`), calculus operators (`\partial`, `\int`), and math fonts (`\mathbf`, `\mathcal`).

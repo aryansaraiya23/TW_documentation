@@ -7,7 +7,7 @@ Practical document demonstrating unordered/ordered/description lists, custom col
 
 ---
 
-## 🔍 Analysis & Implementation Details
+## Analysis & Implementation Details
 
 ### 1. Document Setup & Preamble
 - **Packages:** `graphicx`, `xcolor`, `amsmath`, `caption`, and `colortbl`.
@@ -30,7 +30,7 @@ Practical document demonstrating unordered/ordered/description lists, custom col
 
 ---
 
-## 💡 What I Learnt
+## What I Learnt
 
 - **List Environments:** Learned when to use `itemize`, `enumerate`, and `description` lists to structure technical comparisons.
 - **Custom Colors & Highlights:** Practiced defining colors with `RGB` (`\definecolor`) and mixing (`\colorlet`), and applying them via `\textcolor`, `\colorbox`, `\fcolorbox`, and `\rowcolor`.

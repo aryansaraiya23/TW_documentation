@@ -7,7 +7,7 @@ Foundational LaTeX document demonstrating document class options, automatic tabl
 
 ---
 
-## 🔍 Analysis & Implementation Details
+## Analysis & Implementation Details
 
 ### 1. Document Setup & Preamble
 - **Document Class:** `\documentclass[12pt,a4paper]{article}` configures a 12pt global font size and overrides the default `letter` paper size to `a4paper`.
@@ -26,7 +26,7 @@ Foundational LaTeX document demonstrating document class options, automatic tabl
 
 ---
 
-## 💡 What I Learnt
+## What I Learnt
 
 - **Document Setup & Navigation:** Learned how `[12pt,a4paper]` configures global typography and page dimensions, and how `\tableofcontents` auto-generates section links.
 - **LaTeX Text Rules:** Understood whitespace collapsing, paragraph breaks, and escaping reserved characters (`\%`, `\$`, `\&`, `\#`, `\_`, `\{`, `\}`).

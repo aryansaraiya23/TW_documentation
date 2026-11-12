@@ -8,7 +8,7 @@ Advanced XeLaTeX document structuring assignment featuring custom system fonts v
 
 ---
 
-## 🔍 Analysis & Implementation Details
+## Analysis & Implementation Details
 
 ### 1. Document Setup & Preamble
 - **Compiler & Page Geometry:** Compiled with **XeLaTeX** using `\documentclass[a4paper,10pt]{article}` and custom margins via `geometry` (`left=4.5cm, right=4.5cm, top=4cm, bottom=4.5cm`).
@@ -30,7 +30,7 @@ Advanced XeLaTeX document structuring assignment featuring custom system fonts v
 
 ---
 
-## 💡 What I Learnt
+## What I Learnt
 
 - **XeLaTeX & System Fonts:** Learned to configure custom system fonts (`fontspec`, `\IfFontExistsTF`) and page-wide backgrounds (`\pagecolor`) compiled with XeLaTeX.
 - **Layout, Counters & Hyphenation:** Practiced adjusting margins via `geometry`, changing section numbering to letters (`\Alph{section}`), skipping section counters (`\setcounter`), and disabling hyphenation (`\hyphenpenalty=10000`).

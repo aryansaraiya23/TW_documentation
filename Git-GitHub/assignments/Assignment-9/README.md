@@ -7,7 +7,7 @@ Detailed walkthrough and documentation of Git branching, branch renaming, parall
 
 ---
 
-## 📋 Tasks Overview
+## Tasks Overview
 
 - **Task 1 (Observe HEAD):** `git log --oneline` to inspect `HEAD -> master`
 - **Task 2 (Create Branch):** `git branch fast` and `git branch`
@@ -22,7 +22,7 @@ Detailed walkthrough and documentation of Git branching, branch renaming, parall
 
 ---
 
-## 💡 What I Learnt
+## What I Learnt
 
 - **Branch Lifecycle Management:** Learned how to observe `HEAD`, create feature branches (`git branch`), rename them (`git branch -m`), switch between them (`git checkout`), and clean up merged branches (`git branch -d`).
 - **Parallel Feature Development:** Practiced isolating new work (parallel `multiprocessing` dot product) on a feature branch while fixing bugs independently on `master`.

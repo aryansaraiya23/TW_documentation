@@ -8,7 +8,7 @@ Multi-file C++ **Calculation Engine** project documented using Doxygen (v1.9.8) 
 
 ---
 
-## 📁 Files in Assignment 7
+## Files in Assignment 7
 
 | File | Brief Description |
 | :--- | :--- |
@@ -21,7 +21,7 @@ Multi-file C++ **Calculation Engine** project documented using Doxygen (v1.9.8) 
 
 ---
 
-## 💡 What I Learnt
+## What I Learnt
 
 - **Configuring `Doxyfile`:** Learned how a minimal `Doxyfile` controls input files, output directories (`doc_html`, `doc_latex`), private member extraction (`EXTRACT_PRIVATE = YES`), and automatic Todo list generation (`GENERATE_TODOLIST = YES`).
 - **Multi-File Documentation:** Used `@file` and `@mainpage` to tie multiple headers and `.cpp` files into one unified, cross-referenced reference manual.

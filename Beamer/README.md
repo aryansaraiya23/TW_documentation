@@ -4,7 +4,7 @@ Comprehensive reference, concept guides, syntax explanations, and assignment wal
 
 ---
 
-## 📖 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Concepts Learned](#concepts-learned)
@@ -17,13 +17,13 @@ Comprehensive reference, concept guides, syntax explanations, and assignment wal
 
 ---
 
-## 🔍 Overview
+## Overview
 
 Beamer is a powerful LaTeX document class used for creating structured, modular, and professional slide presentations. It leverages TeX's typesetting precision while providing slide overlays, multi-column layouts, customizable themes, and integrated mathematical notation suitable for academic and conference talks.
 
 ---
 
-## 💡 Concepts Learned
+## Concepts Learned
 
 *This section will be populated with core concepts, principles, and presentation design practices as assignments are completed.*
 
@@ -34,7 +34,7 @@ Beamer is a powerful LaTeX document class used for creating structured, modular,
 
 ---
 
-## 🏷️ Important Terminology
+## Important Terminology
 
 *Key terms and definitions specific to Beamer presentations will be documented here.*
 
@@ -44,7 +44,7 @@ Beamer is a powerful LaTeX document class used for creating structured, modular,
 
 ---
 
-## 💻 Syntax and Commands
+## Syntax and Commands
 
 *Core Beamer syntax, environments, and compilation instructions will be expanded here with practical context.*
 
@@ -78,7 +78,7 @@ pdflatex presentation.tex
 
 ---
 
-## 📝 Explanations & Practical Examples
+## Explanations & Practical Examples
 
 ### Assignment 5 Walkthrough: *Introduction to LaTeX* Presentation
 [`Assignment 5`](./assignments/Assignment%205/source.tex) builds a 4-slide Beamer deck summarizing LaTeX document structure and key packages:
@@ -97,15 +97,15 @@ pdflatex presentation.tex
 
 ---
 
-## 📂 Assignment-Based Learning
+## Assignment-Based Learning
 
 | Assignment | Description | Source Files | Output Files | Notes / Status |
 | :---: | :--- | :--- | :--- | :---: |
-| **Assignment 5** | 4-slide *Introduction to LaTeX* deck using `infolines` outer theme, short/full metadata, `itemize` frames, and package overview (`geometry`, `sectsty`, `fancyhdr`) | [`source.tex`](./assignments/Assignment%205/source.tex) | [`output.pdf`](./assignments/Assignment%205/output.pdf) | ✅ Completed |
+| **Assignment 5** | 4-slide *Introduction to LaTeX* deck using `infolines` outer theme, short/full metadata, `itemize` frames, and package overview (`geometry`, `sectsty`, `fancyhdr`) | [`source.tex`](./assignments/Assignment%205/source.tex) | [`output.pdf`](./assignments/Assignment%205/output.pdf) | Completed |
 
 ---
 
-## 🎯 Key Takeaways & Best Practices
+## Key Takeaways & Best Practices
 
 - Design slides for readability: minimize excessive text and leverage concise bullet points.
 - Keep theme and color selections consistent throughout the presentation.
@@ -113,7 +113,7 @@ pdflatex presentation.tex
 
 ---
 
-## 🔗 References & Resources
+## References & Resources
 
 - [The Beamer Class User Guide (CTAN)](https://ctan.org/pkg/beamer)
 - [Overleaf Beamer Tutorial](https://www.overleaf.com/learn/latex/Beamer)
