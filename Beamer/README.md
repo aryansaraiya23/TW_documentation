@@ -23,14 +23,6 @@ Beamer is a powerful LaTeX document class used for creating structured, modular,
 
 ---
 
-## Concepts Learned
-
-*This section will be populated with core concepts, principles, and presentation design practices as assignments are completed.*
-
-- Slide structure, frame lifecycle, and navigation bars
-- Dynamic overlays, pauses, and incremental reveals (`\pause`, `<1->`, `<alert@2>`)
-- Theming hierarchy (themes, color themes, font themes, inner/outer themes)
-- Multi-column slide layouts and structured blocks (`block`, `alertblock`, `exampleblock`)
 
 ---
 
